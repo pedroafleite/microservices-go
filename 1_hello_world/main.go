@@ -8,14 +8,14 @@ import (
 )
 
 func main() {
-	// reqeusts to the path /goodbye with be handled by this function
+	// requests to the path /goodbye with be handled by this function
 	http.HandleFunc("/goodbye", func(http.ResponseWriter, *http.Request) {
 		log.Println("Goodbye World")
 	})
 
 	// any other request will be handled by this function
 	http.HandleFunc("/", func(rw http.ResponseWriter, r *http.Request) {
-		log.Println("Running Hello Handler")
+		log.Println("Hello World")
 
 		// read the body
 		b, err := ioutil.ReadAll(r.Body)
