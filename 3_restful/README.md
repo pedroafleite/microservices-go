@@ -10,7 +10,6 @@ Then `ctrl+c` to see graceful shutdown message.
 
 ### Run it on the client side:
 
-`curl -v localhost:9090 -d 'Pedro'`
+`curl -v localhost:9090`
 
-`curl -v localhost:9090/goodbye`
 

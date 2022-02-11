@@ -56,6 +56,6 @@ var productList = []*Product{
 		Price:       1.99,
 		SKU:         "fjd34",
 		CreatedOn:   time.Now().UTC().String(),
-[O		UpdatedOn:   time.Now().UTC().String(),
+		UpdatedOn:   time.Now().UTC().String(),
 	},
 }
