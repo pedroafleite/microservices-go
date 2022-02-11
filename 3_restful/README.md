@@ -12,4 +12,5 @@ Then `ctrl+c` to see graceful shutdown message.
 
 `curl -v localhost:9090`
 
+`curl -v localhost:9090 -XDELETE -v` to see that the method is not allowed.
 
